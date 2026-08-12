@@ -1,0 +1,221 @@
+/* ~Ink Black   #03071e
+~Night Bordeaux   #370617
+~Black Cherry   #6a040f
+~Oxblood   #9d0208
+~Brick Ember   #d00000
+~Red Ochre   #dc2f02
+~Autumn Leaf   #e85d04
+~Dark Orange  #f48c06
+~Orange   #faa307   
+~Amber Flame   #ffba08
+*/
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #d8d8d8;
+    color: #03071e;
+
+    padding: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+button{
+    border-style: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+button:hover{
+    font-style: italic;
+    text-decoration: line-through;
+    color: #6a040f;
+    cursor: pointer;
+}
+
+
+/* HOME */
+
+.home-page{
+    padding-bottom: 50px;
+}
+
+.main-title{
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    color: #6a040f;
+
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.restaurant-img{
+    width: 100%;
+    height: 400px;
+
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.tagline{
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 400px;
+    padding-bottom: 30px;
+}
+
+.hours-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 1px solid #6a040f;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.hours-section h2{
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    color: #6a040f;
+
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.hours-info{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.hours-section p{
+    flex: 1;  
+}
+
+/* MENU */
+
+.menu-page{
+    padding-bottom: 50px;
+}
+
+.menu-img{
+    width: 100%;
+    height: 400px;
+
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: bottom;
+    margin-bottom: 30px;
+}
+
+.menu-section{
+    background-color: #6a040f;
+    color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-section h2{
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+}
+
+.menu-items{
+    display: flex;
+    gap: 20px;
+}
+
+.item{
+    flex: 1;
+
+    background-color: #d8d8d8;
+    color: #03071e;
+    border-radius: 5px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+/* CONTACT */
+
+.contact-page{
+    padding-bottom: 50px;
+}
+
+.contact-img{
+    width: 100%;
+    height: 400px;
+
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.contactSection{
+    background-color: #6a040f;
+    color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-info{
+    display: flex;
+    gap: 20px;
+}
+
+.info{
+    flex: 1;
+
+    background-color: #d8d8d8;
+    color: #03071e;
+    border-radius: 5px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
