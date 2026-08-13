@@ -1,30 +1,29 @@
 # Restaurant Page
 
-🍽️ Elegant restaurant website built with JavaScript, featuring dynamic content rendering, interactive navigation, and a responsive layout.
+🍽️ Elegant restaurant website built with JavaScript, featuring dynamic content rendering and interactive navigation.
 
 ## Features
 
-* Dynamic page content
-* Interactive navigation between sections
-* Responsive design
-* Modular JavaScript structure
-* Clean and intuitive user interface
+- Dynamic page content
+- Interactive navigation between sections
+- Modular JavaScript structure
+- Clean and intuitive user interface
 
 ## Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript (Vanilla JS)
-* Webpack
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Webpack
 
 ## What I Learned
 
-* JavaScript modules
-* DOM manipulation
-* Dynamic content rendering
-* Webpack and module bundling
-* Organizing code into separate modules
-* Managing page navigation with JavaScript
+- JavaScript modules
+- DOM manipulation
+- Dynamic content rendering
+- Webpack and module bundling
+- Organizing code into separate modules
+- Managing page navigation with JavaScript
 
 ## Project Goal
 
